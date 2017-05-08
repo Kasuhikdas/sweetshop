@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+
+.graph{
+	position:absolute;
+	left: 230px;
+	top: 120px;
+	width: 550px;
+	height: 250px;
+}
+
+dt { 
+float: left;
+padding: 4px; 
+font-family: �Lucida Sans Unicode�, �Lucida Grande�, sans-serif;
+color: white; 
+}
+dd {
+margin-left: 100px; 
+font-family: Helvetica, Arial; font-size: 12px;
+}
+.bar {
+margin-bottom: 10px;
+color: #fff;
+padding: 4px;
+text-align: center;
+background: -webkit-gradient(linear, left top, left bottom, from(#ff7617), to(#ba550f));
+background-color: #ff7617;
+border-radius: 2px;
+-webkit-animation-name:bar;
+-webkit-animation-duration:0.5s;
+}
+
+#data-one { -webkit-animation-name:bar-one; }
+#data-two { -webkit-animation-name:bar-two; }
+#data-three { -webkit-animation-name:bar-three; }
+#data-four { -webkit-animation-name:bar-four; }
+
+@-webkit-keyframes bar-one {
+0% { width:0%; }
+100% { width:60%; }
+}
+
+@-webkit-keyframes bar-two {
+0% { width:0%; }
+100% { width:80%; }
+}
+
+@-webkit-keyframes bar-three {
+0% { width:0%; }
+100% { width:64%; }
+}
+
+@-webkit-keyframes bar-four {
+0% { width:0%; }
+100% { width:97%; }
+}
+h1{
+color: white;
+font-family: Helvetica, Arial; 
+}
+.sweet_list
+{
+position:absolute;
+top:120px;
+left:800px;
+width:500px;
+height: 300px;
+border:black solid 3px;
+color:white;
+}
+.Testimonials
+{
+position:absolute;
+top:520px;
+left:360px;
+width:800px;
+height: 200px;
+border:black solid 3px;
+color:white;
+}
+.button{
+
+	position: absolute;
+	left: 420px;
+	top: 270px;
+}

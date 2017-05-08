@@ -1,0 +1,187 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin: 0;
+}
+
+.header{
+	/*border:1px solid black;*/
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 1346px;
+	height: 44px;
+}
+#navigation
+{
+	/*border:1px solid black;*/
+	position: fixed;
+	width: 62px;
+	height: 1218px;
+	list-style-type: none;
+	margin-top: 20px;
+	padding: 0px;
+	background-color: #D82424;
+	overflow: auto;
+	top: -57px;
+	left: 0px;
+}
+.icon{
+	position: absolute;
+	width: 63px;
+	height: 390px;
+	list-style-type: none;
+	left: -42px;
+	top: 64px;
+	padding-top:15px;
+	
+	
+}
+
+.icon a {
+    padding: 10px;
+    display: block;
+    transition: all 0.3s ease;
+    font-size: 36px;
+}
+
+.icon a:hover {
+    background-color: #000;
+}
+
+
+.a{
+	position: absolute;
+	left: 62px;
+	top: 45px;
+	width: 1275px;
+	height: 193px;
+}
+.b{
+	position: absolute;
+	left: 83px;
+	top: 238px;
+	width: 981px;
+	height: 464px;
+}
+.c{
+	position: absolute;
+	left: 149px;
+	top: 330px;
+	width: 914px;
+	height: 208px;
+	color:white;
+	
+}
+.d{
+	position: absolute;
+	left: 198px;
+	top: 813px;
+	width: 988px;
+	height: 92px;
+}
+.e{
+	position: absolute;
+	left: 115px;
+	top: 932px;
+	height: 302px;
+	width: 440px;
+}
+.f{
+	position: absolute;
+	left: 698px;
+	top: 931px;
+	height: 302px;
+	width: 629px;
+}
+.g{
+	position: absolute;
+	left: 116px;
+	top: 1258px;
+	width: 575px;
+	height: 288px;
+}
+.h{
+	position: absolute;
+	left: 700px;
+	top: 1258px;
+	height: 288px;
+	width: 631px;
+}
+.i{
+	position: absolute;
+	height: 260px;
+	width: 569px;
+	left: 118px;
+	top: 1560px;
+}
+.j{
+	position: absolute;
+	left: 702px;
+	top: 1563px;
+	width: 626px;
+	height: 252px;
+}
+.k{
+	position: absolute;
+	left: -583px;
+	top: 267px;
+	width: 570px;
+	height: 214px;
+}
+.l{
+	position: absolute;
+	left: 706px;
+	top: 1830px;
+	height: 207px;
+	width: 623px;
+}
+.m{
+	position: absolute;
+	left: 239px;
+	top: 2063px;
+	width: 925px;
+	height: 83px;
+}
+
+.footer-wrap{
+	position: absolute;
+	left: 64px;
+	top: 2169px;
+	width: 1290px;
+	height: 402px;
+	background-color: #E1D7D7;
+	bottom: 0px;
+}
+.foot-contain{
+	position: absolute;
+	left: 150px;
+	top: 20px;
+	width: 618px;
+	height: 172px;
+	text-align: center;
+	color: red;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	border-left: 1px #D82424;
+}
+.support{
+	position: absolute;
+	left: 397px;
+	top: 222px;
+	width: 402px;
+	text-align: center;
+	font-family: antic-didone;
+}
+.h1
+{
+	position: absolute;
+	left: 33px;
+	top: 85px;
+	width: 382px;
+	height: 56px;
+	color:white;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	}
+	
+	

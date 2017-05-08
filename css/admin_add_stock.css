@@ -1,0 +1,83 @@
+﻿@charset "utf-8";
+/* CSS Document */
+.content1
+{
+	position: absolute;
+	left: 229px;
+	top: 124px;
+	width: 519px;
+	height: 364px;
+	box-shadow: 1px 2px 60px  black;
+	border-radius: 25px;
+	padding: 20px 30px;
+	background: #2F2F2F;
+	color: white;
+	text-align: center;
+	font-family: �Lucida Sans Unicode�, �Lucida Grande�, sans-serif;
+}
+
+.content2
+{
+	position: absolute;
+	left: 876px;
+	top: 124px;
+	width: 380px;
+	height: 330px;
+	box-shadow: 1px 2px 60px  black;
+	border-radius: 25px;
+	padding: 20px 30px;
+	background: #2F2F2F;
+	color: white;
+	text-align: center;
+	font-family: �Lucida Sans Unicode�, �Lucida Grande�, sans-serif;
+}
+.content3
+{
+	position: absolute;
+	left: 643px;
+	top: 555px;
+	width: 260px;
+	height: 152px;
+	box-shadow: 1px 2px 60px  black;
+	border-radius: 25px;
+	padding: 20px 30px;
+	background: #2F2F2F;
+	color: white;
+	text-align: center;
+	font-family: �Lucida Sans Unicode�, �Lucida Grande�, sans-serif;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 8px 8px;
+    margin: 2px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+input[type=list], select {
+    width: 100%;
+    padding: 8px 8px;
+    margin: 2px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+
+.button1 {
+     background-color: #FF8C00;
+    border: none;
+    color: white;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    background-image: linear-gradient(orange,#ffbf00);
+}

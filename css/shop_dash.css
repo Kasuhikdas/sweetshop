@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+.progress_bar
+{
+position:absolute;
+top:120px;
+left:220px;
+width:1050px;
+height: 30px;
+background-color: #ddd;
+}
+#myBar {
+  position: absolute;
+  width: 1%;
+  height: 100%;
+  background-color: #4CAF50;
+}
+.offers
+{
+position:absolute;
+top:200px;
+left:220px;
+width:500px;
+height: 300px;
+border:black solid 3px;
+color:white;
+}
+.feedback
+{
+position:absolute;
+top:200px;
+left:820px;
+width:500px;
+height: 300px;
+border:black solid 3px;
+color:white;
+}

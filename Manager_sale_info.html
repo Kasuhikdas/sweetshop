@@ -1,0 +1,96 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Manager Sale Informaton</title>
+<link rel="stylesheet" type="text/css" href="css/dash.css">
+<link rel="stylesheet" type="text/css" href="css/manager_sale_info.css">
+</head>
+
+<body>
+<div class="bodywrap">
+<img src="source/black-background2.jpg" alt="no image"  width="1343" height="888">
+<div class="header"><p>Manager Desk</p>
+
+ 
+    
+  <script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+
+</div>
+<div class="sidebar">
+<ul>
+  <li><a href="Manager_dash.html">Dashboard</a></li>
+  <li><a href="Manager_add_shop.php">Add Shop</a></li>
+  <li><a href="Manager_upload_sweet.html">Upload Product</a></li>
+  <li><a href="Manager_stock.html">Inventory Stock</a></li>
+   <li><a href="Manager_sale_info.html">Sales Information</a></li>
+</ul> 
+</div>
+<div class="content1">
+<p>New Orders</p>
+ 	
+ 	<div class="neworder">
+ 		<table border="1px">
+ 		<tr><th>Order Id</th><th>Sweet Name</th><th>Requested Quantity</th><th>
+    	 Approved</th><th>Shop_ID</th><th>Date</th></tr></table>
+ 	</div>
+ 	<div class="changeapprove">
+ 		<table border="1px">
+ 		<tr><td><label>Order_ID</label></td><td><input type="text" list="" name="" required></td></tr>
+ 		<tr><td><label>Approve Qty</label></td> <td><input type="text" name="" required></td></tr>
+ 		</table>
+ 	</div>	
+</div>
+<div class="content2">
+<p>Approved Orders</p>
+ 	<table border="1px">
+ 		
+ 		<tr><th>Order Id</th><th>Sweet Name</th><th>Requested Quantity</th><th>
+     Approved</th><th>Shop_ID</th><th>Date</th></tr>
+ 	</table>
+</div>
+<div class="content3">
+ <p>Sales Report</p>
+ 	<table border="1px">	<tr><td><select>
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="mercedes">Mercedes</option>
+  <option value="audi">Audi</option>
+</select></td></tr>
+ 		<tr><th>Shop_ID</th><th>Sweet Name</th><th>Sold Qty</th><th>Date</th></tr>
+</table>
+</div>
+<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn"><img src="bg_icon\avatar.png" alt="no image" id="user_photo" height="30px" width="30px">  User</button>
+
+  <div id="myDropdown" class="dropdown-content">
+    <a href="#change_password">Change Password</a>
+    <a href="#log_out">Log Out</a>
+    <a href="#help">Help</a></div>
+</div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,126 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin: 0;
+}
+
+.header{
+	/*border:1px solid black;*/
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 1346px;
+	height: 44px;
+}
+#navigation
+{
+	/*border:1px solid black;*/
+	position: fixed;
+	width: 62px;
+	height: 1218px;
+	list-style-type: none;
+	margin-top: 20px;
+	padding: 0px;
+	background-color: #D82424;
+	overflow: auto;
+	top: -57px;
+	left: 0px;
+}
+.icon{
+	position: absolute;
+	width: 63px;
+	height: 390px;
+	list-style-type: none;
+	left: -42px;
+	top: 64px;
+	padding-top:15px;
+	
+	
+}
+
+.icon a {
+    padding: 10px;
+    display: block;
+    transition: all 0.3s ease;
+    font-size: 36px;
+}
+
+.icon a:hover {
+    background-color: #000;
+}
+.bodywrap{
+position:absolute;	
+top:50px;
+left:100px;
+width:1150px;
+	}
+
+.a{
+	position: absolute;
+	left: 130px;
+	top: 40px;
+	width: 500px;
+	height: 80px;
+}
+.a h1
+{
+font-family:"Comic Sans MS", cursive, sans-serif;
+}
+.b{
+	position: absolute;
+	left: 121px;
+	top: 298px;
+	width: 816px;
+	height: 56px;
+}
+.c{
+	position: absolute;
+	left: 380px;
+	top: 364px;
+	height: 261px;
+	width: 608px;
+}
+.d{
+	position: absolute;
+	left: 198px;
+	top: 941px;
+	width: 613px;
+	height: 51px;
+}
+.form-group{
+	position: absolute;
+	left: 15px;
+	top: 855px;
+	width: 540px;
+	height: 327px;
+}
+
+.footer-wrap{
+	position: absolute;
+	left: 68px;
+	top: 1100px;
+	width: 1290px;
+	height: 402px;
+	background-color: #E1D7D7;
+	bottom: 0px;
+}
+.foot-contain{
+	position: absolute;
+	left: 150px;
+	top: 20px;
+	width: 618px;
+	height: 172px;
+	text-align: center;
+	color: red;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	border-left: 1px #D82424;
+}
+.support{
+	position: absolute;
+	left: 397px;
+	top: 222px;
+	width: 402px;
+	text-align: center;
+	font-family: antic-didone;
+}
